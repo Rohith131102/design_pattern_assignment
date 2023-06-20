@@ -1,4 +1,4 @@
-from observer import updateData
+from latest_data import updateData
 
 class desktopAppUpdate(updateData):
     def update(self, weather_data):
@@ -7,3 +7,4 @@ class desktopAppUpdate(updateData):
         print(f"Humidity: {weather_data[1]}")
         print(f"Pressure: {weather_data[2]}")
         print()
+ˀ.¸

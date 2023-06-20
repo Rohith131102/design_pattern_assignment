@@ -1,4 +1,4 @@
-from observer import updateData
+from latest_data import updateData
 
 class mobileAppUpdate(updateData):
     def update(self, weather_data):
